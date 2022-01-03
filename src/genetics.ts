@@ -14,4 +14,3 @@ const person = <T extends { firstName: any; lastName: string }>(obj: T) => {
 }
 
 const Mike = person({ firstName: 'mike', lastName: 'fast', age: 15 })
-
